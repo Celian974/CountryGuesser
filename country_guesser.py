@@ -49,6 +49,7 @@ def play():
     while len(guessed) < 196:
         guess = input(Fore.BLACK + "Pays trouvés : {} /196. Entrez un pays : " .format(len(guessed)))
         if guess == "exit":
+            print("Vous avez trouvé {} pays !" .format(len(guessed)))
             break
         if guess in countries and guess not in guessed:
             guessed.add(guess)
