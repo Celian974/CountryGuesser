@@ -1,6 +1,7 @@
 # CountryGuesser
 
 Description:
+
 This is a simple terminal-based game where players try to guess the names of all 196 countries of the world. The game is interactive, and players can enter country names one by one, with the goal of finding all the countries. It is important to type the country name correctly, with the first letter capitalized.
 
 The game uses the colorama module to add colors to the text for a more engaging experience.
