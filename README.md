@@ -8,7 +8,7 @@ The game uses the colorama module to add colors to the text for a more engaging 
 
 Features:
  - Guess the Country: Type the name of a country and see if it's correct.
- - Case Insensitive Input: You can type countries name in any case wether it is lowercase, uppercase, or even a mix of both.
+ - Case Insensitive Input: You can type country names in any case wether it is lowercase, uppercase, or even a mix of both.
  - Progress Tracker: The game shows how many countries have been correctly guessed and how many are still left.
  - Exit Option: Type 'exit' at any time to quit the game.
  - Found Countries Display: Type 'found' to see a list of all the countries you've correctly guessed.
