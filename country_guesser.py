@@ -47,7 +47,7 @@ def play():
     print("-Pour qu'un pays soit correct, vous devez le tapez en commençant par une majuscule-\n")
 
     while len(guessed) < 196:
-        guess = input(Fore.BLACK + "Pays trouvés : {} /196. Entrez un pays : " .format(len(guessed)))
+        guess = input(Fore.MAGENTA + "Pays trouvés : {} /196. Entrez un pays : " .format(len(guessed)))
 
         guess_lower = guess.lower()
         if guess == "exit":
