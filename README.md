@@ -26,9 +26,9 @@ How to Play:
 - Clone or download this repository.
 
 - Run the Python script using Make:
-```
-make
-```
+ ```
+ make
+ ```
 
 The game will prompt you to enter a country. Type the name of a country (starting with a capital letter) and press Enter.
 
