@@ -7,38 +7,38 @@
 
 from colorama import Fore
 
-
 countries = {
-    "Afghanistan", "Albanie", "Algérie", "Andorre", "Angola", "Antigua-et-Barbuda",
-    "Argentine", "Arménie", "Australie", "Autriche", "Azerbaïdjan", "Bahamas", "Bahreïn",
-    "Bangladesh", "Barbade", "Biélorussie", "Belgique", "Belize", "Bénin", "Bhoutan", "Bolivie",
-    "Bosnie-Herzégovine", "Botswana", "Brésil", "Brunéi", "Bulgarie", "Burkina Faso",
-    "Burundi", "Cap-Vert", "Cambodge", "Cameroun", "Canada", "République centrafricaine",
-    "Tchad", "Chili", "Chine", "Colombie", "Comores", "Congo", "Costa Rica", "Croatie",
-    "Cuba", "Chypre", "Tchéquie", "République démocratique du Congo", "Danemark", "Djibouti",
-    "Dominique", "République dominicaine", "Équateur", "Égypte", "Salvador", "Guinée équatoriale",
-    "Érythrée", "Estonie", "Eswatini", "Éthiopie", "Fidji", "Finlande", "France", "Gabon",
-    "Gambie", "Géorgie", "Allemagne", "Ghana", "Grèce", "Grenade", "Guatemala", "Guinée",
-    "Guinée-Bissau", "Guyana", "Haïti", "Honduras", "Hongrie", "Islande", "Inde", "Indonésie",
-    "Iran", "Irak", "Irlande", "Israël", "Italie", "Côte d'Ivoire", "Jamaïque", "Japon", "Jordanie",
-    "Kazakhstan", "Kenya", "Kiribati", "Koweït", "Kirghizistan", "Laos", "Lettonie", "Liban",
-    "Lesotho", "Libéria", "Libye", "Liechtenstein", "Lituanie", "Luxembourg", "Madagascar",
-    "Malawi", "Malaisie", "Maldives", "Mali", "Malte", "Îles Marshall", "Mauritanie",
-    "Maurice", "Mexique", "Micronésie", "Moldavie", "Monaco", "Mongolie", "Monténégro",
-    "Maroc", "Mozambique", "Birmanie", "Namibie", "Nauru", "Népal", "Pays-Bas",
-    "Nouvelle-Zélande", "Nicaragua", "Niger", "Nigéria", "Corée du Nord", "Macédoine du Nord",
-    "Norvège", "Oman", "Pakistan", "Palaos", "Palestine", "Panama", "Papouasie-Nouvelle-Guinée",
-    "Paraguay", "Pérou", "Philippines", "Pologne", "Portugal", "Qatar", "Roumanie", "Russie",
-    "Rwanda", "Saint-Christophe-et-Niévès", "Sainte-Lucie", "Saint-Vincent-et-les-Grenadines",
-    "Samoa", "Saint-Marin", "Sao Tomé-et-Principe", "Arabie Saoudite", "Sénégal", "Serbie",
-    "Seychelles", "Sierra Leone", "Singapour", "Slovaquie", "Slovénie", "Îles Salomon",
-    "Somalie", "Afrique du Sud", "Corée du Sud", "Soudan du Sud", "Espagne", "Sri Lanka",
-    "Soudan", "Suriname", "Suède", "Suisse", "Syrie", "Tadjikistan", "Tanzanie",
-    "Thaïlande", "Timor oriental", "Togo", "Tonga", "Trinité-et-Tobago", "Tunisie",
-    "Turquie", "Turkménistan", "Tuvalu", "Ouganda", "Ukraine", "Émirats arabes unis",
-    "Royaume-Uni", "États-Unis", "Uruguay", "Ouzbékistan", "Vanuatu", "Vatican",
-    "Venezuela", "Vietnam", "Yémen", "Zambie", "Zimbabwe"
+    "afghanistan", "albanie", "algérie", "andorre", "angola", "antigua-et-barbuda",
+    "argentine", "arménie", "australie", "autriche", "azerbaïdjan", "bahamas", "bahreïn",
+    "bangladesh", "barbade", "biélorussie", "belgique", "belize", "bénin", "bhoutan", "bolivie",
+    "bosnie-herzégovine", "botswana", "brésil", "brunéi", "bulgarie", "burkina faso",
+    "burundi", "cap-vert", "cambodge", "cameroun", "canada", "république centrafricaine",
+    "tchad", "chili", "chine", "colombie", "comores", "congo", "costa rica", "croatie",
+    "cuba", "chypre", "tchéquie", "république démocratique du congo", "danemark", "djibouti",
+    "dominique", "république dominicaine", "équateur", "égypte", "salvador", "guinée équatoriale",
+    "érythrée", "estonie", "eswatini", "éthiopie", "fidji", "finlande", "france", "gabon",
+    "gambie", "géorgie", "allemagne", "ghana", "grèce", "grenade", "guatemala", "guinée",
+    "guinée-bissau", "guyana", "haïti", "honduras", "hongrie", "islande", "inde", "indonésie",
+    "iran", "irak", "irlande", "israël", "italie", "côte d'ivoire", "jamaïque", "japon", "jordanie",
+    "kazakhstan", "kenya", "kiribati", "koweït", "kirghizistan", "laos", "lettonie", "liban",
+    "lesotho", "libéria", "libye", "liechtenstein", "lituanie", "luxembourg", "madagascar",
+    "malawi", "malaisie", "maldives", "mali", "malte", "îles marshall", "mauritanie",
+    "maurice", "mexique", "micronésie", "moldavie", "monaco", "mongolie", "monténégro",
+    "maroc", "mozambique", "birmanie", "namibie", "nauru", "népal", "pays-bas",
+    "nouvelle-zélande", "nicaragua", "niger", "nigéria", "corée du nord", "macédoine du nord",
+    "norvège", "oman", "pakistan", "palaos", "palestine", "panama", "papouasie-nouvelle-guinée",
+    "paraguay", "pérou", "philippines", "pologne", "portugal", "qatar", "roumanie", "russie",
+    "rwanda", "saint-christophe-et-nièves", "sainte-lucie", "saint-vincent-et-les-grenadines",
+    "samoa", "saint-marin", "sao tomé-et-principe", "arabie saoudite", "sénégal", "serbie",
+    "seychelles", "sierra leone", "singapour", "slovaquie", "slovénie", "îles salomon",
+    "somalie", "afrique du sud", "corée du sud", "soudan du sud", "espagne", "sri lanka",
+    "soudan", "suriname", "suède", "suisse", "syrie", "tadjikistan", "tanzanie",
+    "thaïlande", "timor oriental", "togo", "tonga", "trinité-et-tobago", "tunisie",
+    "turquie", "turkménistan", "tuvalu", "ouganda", "ukraine", "émirats arabes unis",
+    "royaume-uni", "états-unis", "uruguay", "ouzbékistan", "vanuatu", "vatican",
+    "venezuela", "vietnam", "yémen", "zambie", "zimbabwe"
 }
+
 
 def play():
     guessed = set()
@@ -48,13 +48,15 @@ def play():
 
     while len(guessed) < 196:
         guess = input(Fore.BLACK + "Pays trouvés : {} /196. Entrez un pays : " .format(len(guessed)))
+
+        guess_lower = guess.lower()
         if guess == "exit":
             print("Vous avez trouvé {} pays !" .format(len(guessed)))
             break
-        if guess in countries and guess not in guessed:
-            guessed.add(guess)
+        if guess_lower in countries and guess_lower not in guessed:
+            guessed.add(guess_lower)
             print(Fore.GREEN + "Correct ! {} restants." .format(196 - len(guessed)))
-        elif guess in guessed:
+        elif guess_lower in guessed:
             print(Fore.LIGHTYELLOW_EX + "Ce pays a déjà été trouvé.")
         elif guess == "found":
             print(Fore.CYAN + str(guessed))
