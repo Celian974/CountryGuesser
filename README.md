@@ -32,7 +32,7 @@ How to Play:
   make
   ```
 
-The game will prompt you to enter a country. Type the name of a country and press Enter.
+The game will prompt you to enter a country. Type the name of a country (currently in French) and press Enter.
 
 The game will inform you if the guess is correct or not. If correct, it will update the number of remaining countries to guess.
 
