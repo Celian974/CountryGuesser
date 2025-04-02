@@ -24,7 +24,7 @@ The game uses the colorama module to add colors to the text for a more engaging 
 
   To install it, run the following command:
 
-  ```
+  ```bash
   pip install colorama
   ```
 
@@ -32,7 +32,7 @@ The game uses the colorama module to add colors to the text for a more engaging 
 - Clone or download this repository.
 
 - Run the Python script using Make:
-  ```
+  ```bash
   make
   ```
 
